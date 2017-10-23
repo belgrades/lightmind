@@ -8,3 +8,7 @@ http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/putty.html
 ## To authorize SSH
 
 http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/authorizing-access-to-an-instance.html
+
+## To send files from Windows to EC2
+
+  pscp -i lightmind.pem <local_file> ubuntu@DNS_EC2:<name_in_EC2>
